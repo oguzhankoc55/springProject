@@ -74,7 +74,7 @@ Form tabanlı giriş konfigürasyonunu sağlar.
 ### build Metodu:
 build() metodu, tüm yapıyı oluşturur ve ayarları uygular.
 
-#Görev 3
+# Görev 3
 ## Spring Boot ve gRPC
 Bu görevde öncelikle book.proto dosyalarını ve pom.xml de değişikleri halledip BookServiceGrpc adlı bir dosyanın oluşmasını sağladım .
 ####
