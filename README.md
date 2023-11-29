@@ -1,5 +1,5 @@
 # Spring Project
-#Görev 1
+## Görev 1
 Bu proje, basit bir Spring Boot uygulamasıdır. Kitapları yöneten basit bir CRUD (Create, Read, Update, Delete) işlevselliği sunmaktadır.
 
 ## Başlangıç
@@ -41,7 +41,7 @@ http://localhost:8009/delete/{id} (DELETE)
 ####
 Her bir endpoint'in nasıl kullanılacağı hakkında daha fazla bilgiyi ilgili Controller sınıfında bulabilirsiniz.
 ####
-# Görev 2
+## Görev 2
 ## Güvenlik Konfigürasyonu
 Bu proje, Spring Security ile güvenlik sağlamaktadır.  Güvenlik konfigürasyonu, temel yetkilendirme ve OAuth 2.0 ile giriş konfigürasyonunu içermektedir. GitHub sayesinde yapılmaktadır.
 Bu konfigürasyon, ana sayfa ve favicon'a herkesin erişimine izin verirken, diğer tüm istekler için kimlik doğrulama gerektirir. Ayrıca, OAuth 2.0 ile giriş ve form tabanlı giriş konfigürasyonlarını içermektedir.
@@ -74,7 +74,7 @@ Form tabanlı giriş konfigürasyonunu sağlar.
 ### build Metodu:
 build() metodu, tüm yapıyı oluşturur ve ayarları uygular.
 
-# Görev 3
+## Görev 3
 ## Spring Boot ve gRPC
 Bu görevde öncelikle book.proto dosyalarını ve pom.xml de değişikleri halledip BookServiceGrpc adlı bir dosyanın oluşmasını sağladım .
 ####
