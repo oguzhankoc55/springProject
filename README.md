@@ -26,16 +26,16 @@ Uygulama başlatıldığında, CommandLineRunner tarafından önceden tanımlanm
 ### Kullanım
 Uygulama başlatıldıktan sonra, aşağıdaki endpoint'leri kullanarak kitaplar üzerinde CRUD işlemleri gerçekleştirebilirsiniz:
 
-####Ana Sayfa: 
+#### Ana Sayfa: 
 http://localhost:8080/
-####Tüm Kitapları Listele: 
+#### Tüm Kitapları Listele: 
 http://localhost:8080/books
-####Belirli Bir Kitabı Görüntüle: 
+#### Belirli Bir Kitabı Görüntüle: 
 http://localhost:8080/get/{id}
-####Kitap Ekleme: 
+#### Kitap Ekleme: 
 http://localhost:8080/create (POST)
-####Kitap Güncelleme: 
+#### Kitap Güncelleme: 
 http://localhost:8080/update/{id} (PUT)
-####Kitap Silme: 
+#### Kitap Silme: 
 http://localhost:8080/delete/{id} (DELETE)
 Her bir endpoint'in nasıl kullanılacağı hakkında daha fazla bilgiyi ilgili Controller sınıfında bulabilirsiniz.
