@@ -85,7 +85,7 @@ Bu projenin bu kısmını tamamlayamamış olsam bile bu konu hakkında öğrend
 Sunucu ve istemci arasında etkileşimi kolaylaştırmak için kullanılan bir uzak prosedür çağrı (RPC) çerçevesidir. Protocol Buffers (Protobuf) adı verilen bir seri hizmet tanımı dilini kullanarak çalışır.
 #### Protobuf Tanımları:
 kitap.proto gibi bir Protobuf dosyası oluşturun. Bu dosya, kitap işlemleri için servis ve mesaj tanımlarını içermelidir. Örneğin, Kitap, KitapListesi, KitapEkleme, KitapGuncelleme, KitapSilme gibi mesajlar ve bu mesajları kullanacak bir servis tanımlayın.
-####gRPC Servisi Oluşturma:
+#### gRPC Servisi Oluşturma:
 Protobuf dosyasını kullanarak bir gRPC servisi oluşturmalıyız. Bu servis, kitap ekleme, güncelleme, silme ve listeleme işlevlerini içermelidir.
 
 
