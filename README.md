@@ -38,4 +38,5 @@ http://localhost:8080/create (POST)
 http://localhost:8080/update/{id} (PUT)
 #### Kitap Silme: 
 http://localhost:8080/delete/{id} (DELETE)
+####
 Her bir endpoint'in nasıl kullanılacağı hakkında daha fazla bilgiyi ilgili Controller sınıfında bulabilirsiniz.
