@@ -76,11 +76,16 @@ build() metodu, tüm yapıyı oluşturur ve ayarları uygular.
 
 #Görev 3
 ## Spring Boot ve gRPC
-Bu görevde öncelikle book.proto dosyalarını ve pom.xml de değişikleri halledip BookServiceGrpc adlı bir dosyanın oluşmasını sağladım .Bu service book.proto da yazdığım kodalrın bana server-client tarafında kullanmama yardımcı olacaktı.Fakat yeterli zamanımın kalmamasından dolayı yaptığım değişiklikleri geri aldım.Bu projenin bu kısmını tamamlayamamış olsam bile bu konu hakkında öğrendiğim bilgiler benim için çok faydalı oldu.
-gRPC (gRPC Remote Procedure Call), sunucu ve istemci arasında etkileşimi kolaylaştırmak için kullanılan bir uzak prosedür çağrı (RPC) çerçevesidir. Protocol Buffers (Protobuf) adı verilen bir seri hizmet tanımı dilini kullanarak çalışır.
-Protobuf Tanımları:
+Bu görevde öncelikle book.proto dosyalarını ve pom.xml de değişikleri halledip BookServiceGrpc adlı bir dosyanın oluşmasını sağladım .
+####
+Bu service book.proto da yazdığım kodalrın bana server-client tarafında kullanmama yardımcı olacaktı.Fakat yeterli zamanımın kalmamasından dolayı yaptığım değişiklikleri geri aldım.
+####
+Bu projenin bu kısmını tamamlayamamış olsam bile bu konu hakkında öğrendiğim bilgiler benim için çok faydalı oldu.
+#### gRPC (gRPC Remote Procedure Call), 
+Sunucu ve istemci arasında etkileşimi kolaylaştırmak için kullanılan bir uzak prosedür çağrı (RPC) çerçevesidir. Protocol Buffers (Protobuf) adı verilen bir seri hizmet tanımı dilini kullanarak çalışır.
+#### Protobuf Tanımları:
 kitap.proto gibi bir Protobuf dosyası oluşturun. Bu dosya, kitap işlemleri için servis ve mesaj tanımlarını içermelidir. Örneğin, Kitap, KitapListesi, KitapEkleme, KitapGuncelleme, KitapSilme gibi mesajlar ve bu mesajları kullanacak bir servis tanımlayın.
-gRPC Servisi Oluşturma:
+####gRPC Servisi Oluşturma:
 Protobuf dosyasını kullanarak bir gRPC servisi oluşturmalıyız. Bu servis, kitap ekleme, güncelleme, silme ve listeleme işlevlerini içermelidir.
 
 
